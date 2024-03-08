@@ -1,0 +1,6 @@
+@RestApiUpInWorckService_HostAddress = http://localhost:5047
+
+GET {{RestApiUpInWorckService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
