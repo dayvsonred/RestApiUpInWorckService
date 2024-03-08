@@ -4,6 +4,9 @@ simple API REST up in worck servises of windows not need IIS
 
 Microsoft.Extensions.Hosting.WindowsServices
 
+builder.Host.UseWindowsService();
+builder.Services.AddWindowsService();
+
 http://localhost:5421/swagger/index.html	
 
 
